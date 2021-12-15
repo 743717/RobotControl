@@ -14,7 +14,6 @@ Has everything you need to control your robot quickly
 
 
 How to use:
-═══════════════════════════════════════
 	* You do not need to add the servo library or create servo objects because the library does this for you. 
 	If you do, this library and your code will break.
 	* This library needs you to use TurnTime() and input the time it takes to turn 90 degrees, 
@@ -23,7 +22,6 @@ How to use:
 
 
 List of Functions:
-═══════════════════════════════════════
 
 	Setup/Calibration:
 ---------------------------------------
