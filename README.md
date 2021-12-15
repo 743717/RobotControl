@@ -38,7 +38,9 @@ List of Functions:
 			TurnTime(time):				
 			This uses the time it takes for your robot to turn 90 degrees, 
 			and uses it to do some math so you can use angles instead of time to turn your robot.
+			
 		Testing:
+		
 			Calibrate():
 			Same as Stop, but it also attaches the pins so you don't need to add 
 			Attach to your code to calibrate the wheels.
