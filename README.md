@@ -1,16 +1,16 @@
 # RobotControl
 Library of controls for arduino robots
 
- ╬═════════════════════════════════════════════════════════╬
- ║  Programmer: Colin Schwartz                             ║
- ╬═════════════════════════════════════════════════════════╬
- ║  Date: 4 Oct 2021                                       ║
- ╬═════════════════════════════════════════════════════════╬
- ║  Library: Robot Control                                 ║
- ╬═════════════════════════════════════════════════════════╬
- ║  Description:                                           ║
- ║  Has everything you need to control your robot quickly  ║
- ╬═════════════════════════════════════════════════════════╬
+
+Programmer: Colin Schwartz
+
+Date: 4 Oct 2021
+
+Library: Robot Control
+
+Description:                                           
+Has everything you need to control your robot quickly  
+
 
 
 How to use:
