@@ -24,7 +24,6 @@ How to use:
 List of Functions:
 ---------------------------------------
 	Setup/Calibration:
----------------------------------------
 
 		Attach():
 		Attaches the pins automatically to servo objects.
@@ -32,7 +31,7 @@ List of Functions:
 		AttachSet(servoLeftpin, servoRightpin):
 		Similar to Attach, but allows you to set the servos to a different pin of your choice.      
 		
-		TurnTime(time):                                                                         								
+		TurnTime(time):				
 		This uses the time it takes for your robot to turn 90 degrees, 
 		and uses it to do some math so you can use angles instead of time to turn your robot.
 
