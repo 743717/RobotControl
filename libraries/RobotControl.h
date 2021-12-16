@@ -35,7 +35,7 @@ void CurveLeft(int c, int t);
 void Forward(int t);
 void Backward(int t);
 void Stop(int t);
-void Calibrate();
+void Calibrate(int time);
 void Detach();
 };
 #endif
