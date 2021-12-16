@@ -133,11 +133,12 @@ void control::Stop(int t) {
 
 
 //----------------------------------------------------------------------------------------------------------
-// Calibrate: helps with fixing the wheels
+// Calibrate: This turns the robot right for a set amount of time to help with calibrating the angles
 //----------------------------------------------------------------------------------------------------------
-void control::Calibrate() { 
-  servoRight.attach(13);
-  servoLeft.attach(12);
+void control::Calibrate(int time) { 
+  servoLeft.writeMicroseconds(1600);
+  servoRight.writeMicroseconds(1600);
+  delay(time);
   servoRight.writeMicroseconds(1500);
   servoLeft.writeMicroseconds(1500);
 }
