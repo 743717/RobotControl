@@ -133,9 +133,9 @@ void control::Stop(int t) {
 
 
 //----------------------------------------------------------------------------------------------------------
-// Calibrate: This turns the robot right for a set amount of time to help with calibrating the angles
+// TurnRtime: This turns the robot right for a set amount of time
 //----------------------------------------------------------------------------------------------------------
-void control::Calibrate(int time) { 
+void control::TurnRtime(int time) { 
   servoLeft.writeMicroseconds(1600);
   servoRight.writeMicroseconds(1600);
   delay(time);
@@ -144,7 +144,17 @@ void control::Calibrate(int time) {
 }
 //----------------------------------------------------------------------------------------------------------
 
-
+//----------------------------------------------------------------------------------------------------------
+// TurnLtime: This turns the robot right for a set amount of time
+//----------------------------------------------------------------------------------------------------------
+void control::TurnLtime(int time) { 
+  servoLeft.writeMicroseconds(1400);
+  servoRight.writeMicroseconds(1400);
+  delay(time);
+  servoRight.writeMicroseconds(1500);
+  servoLeft.writeMicroseconds(1500);
+}
+//----------------------------------------------------------------------------------------------------------L
 //----------------------------------------------------------------------------------------------------------
 // Detach: detaches the pins from the servos
 //----------------------------------------------------------------------------------------------------------
