@@ -37,7 +37,7 @@ void Backward(int t);
 void Stop(int t);
 #define devmode 0
 #if devmode == 1
-void Calibrate(int time);
+void TurnRtime(int time);
 #endif
 void Detach();
 };
