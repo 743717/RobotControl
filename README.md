@@ -4,7 +4,7 @@ Library of controls for arduino robots
 
 Programmer: Colin Schwartz
 
-Date: 4 Oct 2021
+Date: Oct 4, 2021
 
 Library: Robot Control
 
