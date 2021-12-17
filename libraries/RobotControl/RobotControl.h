@@ -35,7 +35,11 @@ void CurveLeft(int c, int t);
 void Forward(int t);
 void Backward(int t);
 void Stop(int t);
+#define devmode 0
+#if devmode == 1
 void Calibrate(int time);
+#endif
 void Detach();
 };
 #endif
+
