@@ -42,8 +42,7 @@ List of Functions:
 		Testing:
 		
 			Calibrate():
-			Same as Stop, but it also attaches the pins so you don't need to add 
-			Attach to your code to calibrate the wheels.
+			Similar to TurnRight(), but you instead enter milliseconds. This is for finding the time it takes for your robot to turn 90 degrees without needing to make code from scratch.
 
 ---------------------------------------
 
@@ -59,7 +58,7 @@ List of Functions:
 		Turning:
 
 			TurnLeft(angle):
-			Turns the robot left for a set amount of time.
+			Turns the robot right to a set angle.
 
 			TurnRight(angle):
 			Turns the robot right to a set angle.
