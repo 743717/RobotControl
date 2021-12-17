@@ -37,9 +37,10 @@ void Backward(int t);
 void Stop(int t);
 #define devmode 0
 #if devmode == 1
+void TurnLtime(int time);
 void TurnRtime(int time);
-#endif
 void Detach();
+#endif
 };
 #endif
 
