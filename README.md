@@ -1,5 +1,5 @@
 # RobotControl
-Library of controls for arduino robots
+Library of controls for arduino robots.
 
 
 Programmer: Colin Schwartz
