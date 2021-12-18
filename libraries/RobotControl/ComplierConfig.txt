@@ -1,0 +1,4 @@
+//This file is for setting what parts of the library you want to be compiled and what parts you don't
+//Refer to the readme.txt in libraries/RobotControl for more info
+
+#define DEVMODE
